@@ -1,0 +1,114 @@
+body {
+	background: url("https://i.imgur.com/YhOBkkB.png") no-repeat center center fixed;
+}
+
+#statusbar {
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+#searchbar {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#searchbar2 {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#searchicon {
+	margin-left: 5px;
+	font-size: 24px;
+}
+
+#locationselect {
+	margin-left: 600px;
+}
+
+#colorselect {
+	margin-left: 10px;
+}
+
+.icons {
+	width: 35px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#rightbar {
+	margin-right: 5px;
+}
+
+#uparrow {
+	font-size: 24px;
+	margin-left: 35px;
+	margin-bottom: 5px;
+}
+
+#downarrow {
+	font-size: 24px;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+
+#sidearrow1 {
+	font-size: 24px;
+}
+
+#sidearrow2 {
+	font-size: 24px;
+	margin-left: 40px;
+}
+
+.righticon {
+	font-size: 24px;
+	margin-left: 35px;
+	margin-top: 10px;
+}
+
+#center {
+	margin-top: 25vh;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	text-align: center;
+}
+
+h1 {
+	font-weight:bold;
+	font-size: 50px;
+}
+
+#desc {
+	margin-top: 30px;
+}
+
+#icondesc {
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+#icondesc2 {
+	margin-top: 30px;
+	font-size: 30px;
+	color: white;
+}
+
+#themebg {
+	background: url("https://i.imgur.com/fH7ZK7I.png") no-repeat center center fixed;
+}
+
+#nybg {
+	background: url("https://i.imgur.com/mCd7ewG.png") no-repeat center center fixed;
+}
+
+#zoombg {
+	background: url("https://i.imgur.com/IwfpwsN.png") no-repeat center center fixed;
+}
+
+#poibg {
+	background: url("https://i.imgur.com/IwfpwsN.png") no-repeat center center fixed;
+}

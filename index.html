@@ -5,40 +5,118 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kooresh and Desai Maps</title>
+    <title>Akhbari and Desai Maps</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 
   </head>
 
   <body>
-    
+
     <div>
-      <h1 class="title is-1" style="font-family:arial; font-size: 48px; margin: 40px auto; text-align:center;">AKHBARI AND DESAI MAPS</h1>
+      <div class="pin-t pin-l inline-block" id="searchbar">
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" id="searchbar1" type="text" placeholder="Find Intersections">
+      </div>
+      <div class="inline-block"  id="searchicon">
+          <a href="/search.html">🔍</a> <a href="/directions.html">⤴️</a>
+      </div>
+      <div class="inline-block" id="locationselect">
+          <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-2 px-3 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-grey" id="grid-state">
+            <option>Toronto, Canada</option>
+            <option>New York</option>
+            <option>Tokyo, Japan</option>
+          </select>
+      </div>
+      <div class="inline-block" id="searchicon">
+          <a href="/newyork.html">📂</a>
+      </div>
+      <div class="inline-block" id="colorselect">
+          <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-2 px-3 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-grey" id="grid-state">
+            <option>Regular</option>
+            <option>Night Mode</option>
+            <option>Retro</option>
+            <option>Colorblind</option>
+          </select>
+      </div>
+      <div class="inline-block" id="searchicon">
+          <a href="/theme.html">🌈</a>
+      </div>
+      <div class="inline-block" id="colorselect">
+          <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-2 px-3 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-grey" id="grid-state">
+            <option>All POIs</option>
+            <option>Health</option>
+            <option>Police</option>
+            <option>Food</option>
+          </select>
+      </div>
+      <div class="inline-block" id="searchicon">
+          <a href="/poi.html">📍</a>
+      </div>
+    </div>
+    <div>
+      <div class="inline-block" id="searchbar2">
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" id="searchbar1" type="text" placeholder="Find Intersections">
+      </div>
+      <div class="inline-block" id="searchicon">
+          <a href="/reverse.html">🔃</a>
+      </div>
     </div>
     
-    <div style="text-align:center;">
-      <img style="width:800px;" src="https://i.imgur.com/TuIP2DD.png">
-    
-    </div>
-  
-    <div style="text-align:center; margin: 40px auto;">
-      <a style="margin: 0 10px; text-decoration:none; font-family:arial; color:black;" href="./index.html"><div style="display:inline-block; width: 80px; background-color: #e0e0e0; border-radius:5%;"><p style="margin:5px 0; font-size:14px;">ABOUT</p></div></a>
-      <a style="margin: 0 10px; text-decoration:none; font-family:arial; color:black;" href="./nav.html"><div style="display:inline-block; width: 110px; background-color: #e0e0e0; border-radius:5%;"><p style="margin:5px 0; font-size:14px;">NAVIGATION</p></div></a>
-      <a style="margin: 0 10px; text-decoration:none; font-family:arial; color:black;" href="./theme.html"><div style="display:inline-block; width: 90px; background-color: #e0e0e0; border-radius:5%;"><p style="margin:5px 0; font-size:14px;">THEMES</p></div></a>
-    </div>
-    
-    <div style="margin:auto; width:40%;">
-      <p style="font-family:arial; text-align:center;">
-         Desai and Kooresh Maps is a global mapping system for select locations around the world. It was created
-         for a software programming course at the University of Toronto.
-         <br></br>
-         The maps are designed for the user in mind making sure the user is not cluttered with data
-         and all features are easy to use and see. Using the maps, you can find different places in any of the locations
-         including point of interests, parks and even exact addresses of buildings.
-        </p>
-        
+    <div class="absolute pin-r" id="rightbar">
+      <div id="uparrow">
+        ⬆️
+      </div>
+      <div>
+        <div class="inline-block" id="sidearrow1">
+          ⬅️
+        </div>
+        <div class="inline-block" id="sidearrow2">
+          ➡️
+        </div>
+      </div>
+      <div id="downarrow">
+        ⬇️
+      </div>
+      <div class="righticon">
+        <a href="/plus.html">➕</a>
+      </div>
+      <div class="righticon">
+        <a href="/minus.html">➖</a>
+      </div>
+      <div class="righticon">
+        <a href="/zoomfit.html">🗺️</a>
+      </div>
+      <div class="righticon">
+        <a href="/address.html">🏠️</a>
+      </div>
+      <div class="righticon">
+        <a href="/link.html">🔗</a>
+      </div>
+      <div class="righticon">
+        <a href="/time.html">⏱️</a>
+      </div>
+      <div class="righticon">
+        <a href="/info.html">ℹ️</a>
+      </div>
+      <div class="righticon">
+        <a href="/x.html">❌</a>
+      </div>
+      <div class="righticon">
+        <a href="/settings.html">⚙️</a>
+      </div>
+      <div class="righticon">
+        <a href="/web.html">🌐</a>
+      </div>
     </div>
 
+    <div class="absolute pin-b pin-l" id="statusbar">
+      LAT: 43.75 &nbsp; &nbsp; LON: -79.45 &nbsp; &nbsp; POI TYPE: cafe &nbsp; &nbsp; NAME: Country Style
+    </div>
+
+    <div id="center">
+      <h1>Akhbari and Desai Maps</h1>
+      <p id="desc">click on all the buttons to learn what they do</p>
+    </div>
 
 
   </body>
